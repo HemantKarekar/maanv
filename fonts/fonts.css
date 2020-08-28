@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'The Historia';
+    src:url("TheHistoria.ttf");
+    font-style: bold;
+    font-weight: 600;
+}
+@font-face{
+    font-family: 'Chasing Embers';
+    src:url("Chasing Embers.ttf");
+    font-style: normal;
+    font-weight: 600;
+}

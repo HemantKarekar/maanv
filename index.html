@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles\styles.css" />
+    <link rel="stylesheet" type="text/css" href="fonts\fonts.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/a0b438cfb9.js" crossorigin="anonymous"></script>
+    <title>Maanv - Home</title>
+
+    <script>
+        $(document).ready(function() {
+            $('#enquiryModal').modal('show');
+        })
+    </script>
+</head>
+
+<body>
+    <!--MODAL POPUP-->
+    <div class="modal" id="enquiryModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Maanv - Intiation to Enthusiasm</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name" />
+                        </div>
+                        <div class="form-group">
+                            <label>Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="abc@xyz.com" />
+                        </div>
+                        <div class="form-group">
+                            <label>Contact (WhatsApp/Mobile):</label>
+                            <div class="input-group mb-2 mr-sm-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">+91</div>
+                                </div>
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername2">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <textarea class="form-control" placeholder="Start typing what you think.."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Keep me updated with all your activities.
+                                  </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type=" button" class="btn btn-primary">Connect Me to the Journey</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Abort</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container-fluid text-center " style="color: white; background-color: rgb(21, 17, 29); ">
+            <a href="mailto:info.maanv@gmail.com ">info.maanv@gmail.com</a>
+        </div>
+    </header>
+    <!--MAIN EVENTS-->
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <a href="index.html" class="navbar-brand"><img src="images/maanv-logo.png" alt="brand" style="height: 35px;"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#courses" id="navbarDropdown" data-toggle="dropdown">Our Branches</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="earn.html">EARN</a>
+                        <a class="dropdown-item" href="develop.html">DEVELOP</a>
+                        <!--
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="learn.html">LEARN</a>
+                        -->
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Our Vision</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Reach Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main ">
+        <!--KEY FEATURES-->
+        <div class="container-fluid">
+            <div class="jumbotron" style="margin-bottom: 0px;">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <h1 class="display-4">Get your business featured!! <span class="text-muted">We are here to help you to take your business online.</span>
+                                </h1>
+                                <hr class="my-4">
+                                <p class="lead">Visit our branches page or contact us for more details.</p>
+                                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <h1 class="display-4">Do you want to advertise yourself for FREE?? <span class="text-muted">You can do it now!!</span></h1>
+                                <hr class="my-4">
+                                <p class="lead">Visit our website and contribute your ideas. You will get advertised in the list of contributors.</p>
+                                <a class="btn btn-primary btn-lg" href="index.html" role="button">Visit Now</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <h1 class="display-4"><span class="text-muted">Be a Professional</span> Graphic Designer, Full Stack Developer and much more..</h1>
+                                <hr class="my-4">
+                                <p class="lead">We are a team of professionals to help you fulfil your enthusiasm.</p>
+                                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <h1 class="display-4">Are you still struggling for a job??<span class="text-muted"> Get Assisted for your Dream Job</span></h1>
+                                <hr class="my-4">
+                                <p class="lead">Our professionals will help you to fulfil your enthusiasm.</p>
+
+                                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!--FEEDBACK-->
+        <div class="container" style="padding-top:20px;">
+            <h1>Our Goodwill</h1>
+            <hr class="my-4">
+            <div class="jumbotron bg-light" style="margin-bottom: 0px;">
+                <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-12 text-center">
+                                        <img class="img-responsive" height="250" src="images/people/review2.jpg" alt="... " style="border-radius: 50%; padding: 20px; ">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Divya Tamhane</h5>
+                                            <p class="card-text">VFX Artist | Photographer</p>
+                                            <a class="btn btn-primary btn-md" href="https://www.instagram.com/_divyaa_0/" role="button" target="_blank">Connect</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12">
+                                        <h1 class="display-4">Get Assisted for your Dream Job</h1>
+                                        <p class="lead">We are a team of professionals to help you fulfil your enthusiasm.</p>
+                                        <hr class="my-4">
+                                        <p>Our Professionals will help you</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-12 text-center">
+                                        <img class="img-responsive" height="250" src="images/people/review2.jpg" alt="... " style="border-radius: 50%; padding: 20px; ">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Divya Tamhane</h5>
+                                            <p class="card-text">VFX Artist | Photographer</p>
+                                            <a class="btn btn-primary btn-md" href="https://www.instagram.com/_divyaa_0/" role="button" target="_blank">Connect</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12">
+                                        <h1 class="display-4">Get Assisted for your Dream Job</h1>
+                                        <p class="lead">We are a team of professionals to help you fulfil your enthusiasm.</p>
+                                        <hr class="my-4">
+                                        <p>Our Professionals will help you</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-12 text-center">
+                                        <img src="ref1.jpg" alt="... " style="border-radius: 50%; padding: 20px; ">
+                                        <div class="card-body">
+                                            <h5 class="card-title ">Tejas Mungale</h5>
+                                            <p class="card-text ">HDFC</p>
+                                            <a class="btn btn-primary btn-md " href="# " role="button ">Connect</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12">
+                                        <h1 class="display-4">Get Assisted for your Dream Job</h1>
+                                        <p class="lead">We are a team of professionals to help you fulfil your enthusiasm.</p>
+                                        <hr class="my-4">
+                                        <p>Our Professionals will help you</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#myCarousel2" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#myCarousel2" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel2" data-slide-to="1" class="active"></li>
+                        <li data-target="#myCarousel2" data-slide-to="2" class="active"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!--FEATURETTE-->
+        <div class="container">
+            <hr class="featurette-divider">
+
+            <h1 class="title">Our Vision</h1>
+            <div class="row featurette">
+                <div class="col-md-5 p-2">
+                    <img class="featurette-img img-fluid center-block" src="images/develop-featurette.jpg" alt="develop" style="height: auto; width: 100%;">
+                </div>
+                <div class="col-md-7 p-3">
+                    <h2 class="featurette-heading">Websites Designing and Application Development..<span class="text-muted">Made Easy</span></h2>
+                    <p class="lead">
+                        We tend to provide an appropriate solution to your Dream Project. Whether it is a <b>Website</b> or a <b>Software </b>
+                    </p>
+                    <p class="lead">
+                        Now you can get your website designed by our <b>Graphic Designers & Web Developers</b> in a budget that suits your pocket.
+                    </p>
+                    <hr class="featurette-divider">
+                    <p class="lead">
+                        We also provide college students their <b>Software & Web Designing Projects</b> with proper and self explanatory documentations.
+                    </p>
+                    <p class="lead">
+                        <a class="btn btn-outline-primary btn-lg" href="develop.html" role="button">Know More</a>
+                    </p>
+
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5 p-2 d-inline d-sm-inline d-md-none">
+                    <img class="featurette-img img-fluid center-block" src="images/learn-featurette.jpeg" alt="learn" style="height: auto; width: 100%;">
+                </div>
+                <div class="col-md-7 p-3">
+                    <h2 class="featurette-heading">Learn <span class="text-muted">Whenever... Wherever</span></h2>
+                    <p class="lead"> We are launching some industry ready courses that would boost your career. This program includes industry valued courses for <b>Graphics Designing, Web Designing, Application Development, Accounts & Taxation (with GST).</b></p>
+                    <p class="lead">And most of all, you can learn whenever and wherever you like. Because it's all Online.</p>
+                    <p class="lead">
+                        <a class="btn btn-outline-primary btn-lg" href="develop.html" role="button">Know More</a>
+                    </p>
+                </div>
+                <div class="col-md-5 p-2 d-none d-sm-none d-md-block">
+                    <img class="featurette-img img-fluid center-block" src="images/learn-featurette.jpeg" alt="learn" style="height: auto; width: 100%;">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-md-5 p-2">
+                    <img class="featurette-img img-fluid center-block" src="images/business-featurette.jpg" alt="develop" style="height: auto; width: 100%;">
+                </div>
+                <div class="col-md-7 p-3">
+                    <h2 class="featurette-heading"><span class="text-muted">Having trouble for your business?? </span>It's time to Grow...Together</h2>
+                    <p class="lead">
+                        We have been through all difficulties that a small business faces. So we know the pain. And we don't want you to suffer anymore. You have your small business?? Let's make it big then. Get along with us and be professional.</p>
+                    <p class="lead">
+                        <a class="btn btn-outline-primary btn-lg" href="develop.html" role="button">Know More</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+        </div>
+        <!--OUR TEAM-->
+        <div class="container-fluid " style="padding: 20px; " id="team">
+            <h1 class="text-center ">Our Team</h1>
+            <hr class="my-4">
+            <div class="row ">
+                <div class="col-md-3 "></div>
+                <div class="col-md-3 col-sm-6 col-xs-12 ">
+                    <div class="card mb-3 ">
+                        <img src="Capture.JPG " class="card-img-top " alt="... " style="border-radius: 50%; padding: 20px; ">
+                        <div class="card-body text-center ">
+                            <h5 class="card-title ">Branding</h5>
+                            <p class="card-text ">Divya Tamhane</p>
+                            <a class="btn btn-primary btn-md " href="# " role="button ">Connect</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 ">
+                    <div class="card mb-3 ">
+                        <img src="Capture.JPG " class="card-img-top " alt="... " style="border-radius: 50%; padding: 20px; ">
+                        <div class="card-body text-center ">
+                            <h5 class="card-title ">Business Patner</h5>
+                            <p class="card-text ">Pawan Chaugule</p>
+                            <a class="btn btn-primary btn-md " href="# " role="button ">Connect</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 "></div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <!--CONTACT/REACH US-->
+        <div class="container" style="padding: 50px;" id="contact">
+            <h1 class="text-center">Reach Us</h1>
+            <hr class="my-5">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h1 class="display-4">Leave your perspective! Drop suggestions!</h1>
+                    <hr class="my-4">
+                    <p class="lead">We will appreciate all suggestions and will act on the common one's as soon as possible.</p>
+                    <p>This could make you popular as well!!! For FREE!! </p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <form action="">
+                        <div class="form-group">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name" />
+                        </div>
+                        <div class="form-group">
+                            <label>Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="abc@xyz.com" />
+                        </div>
+                        <div class="form-group">
+                            <label>Contact (WhatsApp/Mobile):</label>
+                            <div class="input-group mb-2 mr-sm-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">+91</div>
+                                </div>
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername2">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <textarea class="form-control" placeholder="Start typing what you think.."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                        Keep me updated with all your activities.
+                                      </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary " value="Connect Me">
+                            <input type="reset" class="btn btn-outline-secondary " value="Nope">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER (ENQUIRY FORM/CONTACT INFO/MAP)-->
+    <footer style="color: white; background-color: rgb(21, 17, 29); height: auto; ">
+        <div class="container-fluid ">
+            <div class="row " style="padding:20px; ">
+                <div class="col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Powered By</h5>
+                        <img src="images/maanv-logo-white.png" style="width:auto; height: 100px;" alt="Maanv Group of Solutions" />
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Reach Us</h5>
+                        <p class="card-text ">
+                            <b>Head Office Address:</b><br> 22/9, Sai Sahara CHS., MHADA Colony,<br> Navghar Road, Mulund East.<br>
+                            <b>Contact:</b><br>7718031343
+                        </p>
+                        <a class="btn btn-outline-primary btn-sm" href="# " role="button ">Reach There</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="card-body ">
+                        <h5 class="card-title">Social Links:</h5>
+                        <p class="card-text "><a href="https://www.facebook.com/maanvsolutions/ " target="_blank "><i class="fab fa-facebook "></i> maanvsolutions</a></p>
+                        <p class="card-text "><a href="https://www.instagram.com/maanv.co.in/ " target="_blank "><i class="fab fa-instagram "></i> @maanv.co.in</a></p>
+                        <p class="card-text "><a href="# "><i class="fab fa-twitter "></i></a></p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 " style="border:0;width: auto; ">
+                    <div class="card-body ">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.6727590558858!2d72.96402991490253!3d19.165796487036516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x954db4c09383f9b3!2sMaanv%20Group!5e0!3m2!1sen!2sin!4v1575695897299!5m2!1sen!2sin "
+                            height="450 " frameborder="0 " style="border:0; width: 100%; "></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <div class="container-fluid" style="color: white; background-color:black; padding:20px; ">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-10 sm-10 xs-12"> © All Rights Reserved | Developed by <a href="# ">Hemant Karekar</a> | Powered by <a href="index.html ">Maanv Group</a></div>
+                    <div class="col-md-2 sm-2 xs-12"><img src="images/maanv-logo-white.png" style="width:auto; height: 50px;" alt="Maanv Group of Solutions" /></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
